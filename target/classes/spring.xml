@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+    <!--配置bean
+    id:给配置的类起个后续在容器中获取用的id
+    class:类所在的路径
+    -->
+    <!--创建工厂-->
+    <bean id="factory" class="com.wy.factory.PersonFactory"></bean>
+    <!--创建对象-->
+    <bean id="peo1" factory-bean="factory" factory-method="newInstanceBy"></bean>
+    <bean id="person" class="com.wy.Person">
+        <constructor-arg index="0" name="name" type="java.lang.String" value="网页"></constructor-arg>
+        <constructor-arg index="1" name="age" type="java.lang.Integer" value="12"></constructor-arg>
+    </bean>
+    <bean id="peo2" class="com.wy.factory.PersonFactory" factory-method="newInstant"></bean>
+    <bean id="Person" class="com.wy.Person"/>
+
+    <bean id="one" class="com.wy.Person">
+        <property name="name" value="我哪敢呀"/>
+        <property name="age" value="12"/>
+    </bean>
+    <!--one和two等价-->
+    <bean id="two" class="com.wy.Person">
+        <property name="name">
+            <value >网页</value>
+        </property>
+        <property name="age">
+            <value>13</value>
+        </property>
+    </bean>
+
+   <bean id="throw" class="com.wy.Person">
+       <property name="names">
+           <set>
+               <value>1</value>
+               <value>2</value>
+           </set>
+       </property>
+   </bean>
+
+    <bean id="maps" class="com.wy.Person">
+        <property name="maps">
+            <map>
+                <entry key="1" value="w"/>
+                <entry key="2" value="y"/>
+            </map>
+        </property>
+    </bean>
+
+    <bean id="personOne" class="com.wy.Person">
+        <property name="user" ref="personTwo"></property>
+    </bean>
+    <bean id="personTwo" class="com.wy.User">
+        <property name="name" value="wang"/>
+        <property name="password" value="123"/>
+    </bean>
+
+</beans>

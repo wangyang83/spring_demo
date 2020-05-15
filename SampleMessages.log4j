@@ -1,0 +1,112 @@
+<log4j:event logger="org.springframework.core.env.StandardEnvironment" timestamp="1589435588361" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Adding [systemProperties] PropertySource with lowest search precedence]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.core.env.StandardEnvironment" timestamp="1589435588363" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Adding [systemEnvironment] PropertySource with lowest search precedence]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.core.env.StandardEnvironment" timestamp="1589435588374" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.context.support.ClassPathXmlApplicationContext" timestamp="1589435588396" level="INFO" thread="main">
+<log4j:message><![CDATA[Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@66cd51c3: startup date [Thu May 14 13:53:08 CST 2020]; root of context hierarchy]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.core.env.StandardEnvironment" timestamp="1589435588439" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Adding [systemProperties] PropertySource with lowest search precedence]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.core.env.StandardEnvironment" timestamp="1589435588439" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Adding [systemEnvironment] PropertySource with lowest search precedence]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.core.env.StandardEnvironment" timestamp="1589435588439" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.xml.XmlBeanDefinitionReader" timestamp="1589435588449" level="INFO" thread="main">
+<log4j:message><![CDATA[Loading XML bean definitions from class path resource [spring.xml]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.xml.DefaultDocumentLoader" timestamp="1589435588471" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.xml.PluggableSchemaResolver" timestamp="1589435588513" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Loading schema mappings from [META-INF/spring.schemas]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.xml.PluggableSchemaResolver" timestamp="1589435588513" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Loaded schema mappings: {http://www.springframework.org/schema/cache/spring-cache-4.2.xsd=org/springframework/cache/config/spring-cache-4.2.xsd, http://www.springframework.org/schema/aop/spring-aop-4.1.xsd=org/springframework/aop/config/spring-aop-4.1.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-4.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-4.1.xsd=org/springframework/scripting/config/spring-lang-4.1.xsd, http://www.springframework.org/schema/context/spring-context-4.0.xsd=org/springframework/context/config/spring-context-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans-4.2.xsd=org/springframework/beans/factory/xml/spring-beans-4.2.xsd, http://www.springframework.org/schema/tool/spring-tool-4.1.xsd=org/springframework/beans/factory/xml/spring-tool-4.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-4.1.xsd=org/springframework/ejb/config/spring-jee-4.1.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/task/spring-task-4.2.xsd=org/springframework/scheduling/config/spring-task-4.2.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-4.2.xsd, http://www.springframework.org/schema/cache/spring-cache-4.1.xsd=org/springframework/cache/config/spring-cache-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-4.0.xsd=org/springframework/aop/config/spring-aop-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-4.0.xsd=org/springframework/scripting/config/spring-lang-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans-4.1.xsd=org/springframework/beans/factory/xml/spring-beans-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-4.0.xsd=org/springframework/beans/factory/xml/spring-tool-4.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-4.0.xsd=org/springframework/ejb/config/spring-jee-4.0.xsd, http://www.springframework.org/schema/task/spring-task-4.1.xsd=org/springframework/scheduling/config/spring-task-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-4.0.xsd=org/springframework/cache/config/spring-cache-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/util/spring-util-4.2.xsd=org/springframework/beans/factory/xml/spring-util-4.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-4.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-4.0.xsd=org/springframework/beans/factory/xml/spring-beans-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-4.2.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/task/spring-task-4.0.xsd=org/springframework/scheduling/config/spring-task-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/util/spring-util-4.1.xsd=org/springframework/beans/factory/xml/spring-util-4.1.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-4.2.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-4.2.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/context/spring-context-4.2.xsd=org/springframework/context/config/spring-context-4.2.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/util/spring-util-4.0.xsd=org/springframework/beans/factory/xml/spring-util-4.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-4.2.xsd=org/springframework/aop/config/spring-aop-4.2.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-4.2.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-4.2.xsd, http://www.springframework.org/schema/lang/spring-lang-4.2.xsd=org/springframework/scripting/config/spring-lang-4.2.xsd, http://www.springframework.org/schema/context/spring-context-4.1.xsd=org/springframework/context/config/spring-context-4.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-4.2.xsd=org/springframework/beans/factory/xml/spring-tool-4.2.xsd, http://www.springframework.org/schema/jee/spring-jee-4.2.xsd=org/springframework/ejb/config/spring-jee-4.2.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-4.2.xsd}]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.xml.PluggableSchemaResolver" timestamp="1589435588513" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.2.xsd]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader" timestamp="1589435588579" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Loading bean definitions]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.xml.XmlBeanDefinitionReader" timestamp="1589435588598" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Loaded 1 bean definitions from location pattern [spring.xml]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.context.support.ClassPathXmlApplicationContext" timestamp="1589435588598" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Bean factory for org.springframework.context.support.ClassPathXmlApplicationContext@66cd51c3: org.springframework.beans.factory.support.DefaultListableBeanFactory@5ae9a829: defining beans [Person]; root of factory hierarchy]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.context.support.ClassPathXmlApplicationContext" timestamp="1589435588622" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@271053e1]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.context.support.ClassPathXmlApplicationContext" timestamp="1589435588622" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@6fd02e5]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.support.DefaultListableBeanFactory" timestamp="1589435588622" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5ae9a829: defining beans [Person]; root of factory hierarchy]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.support.DefaultListableBeanFactory" timestamp="1589435588622" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Creating shared instance of singleton bean 'Person']]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.support.DefaultListableBeanFactory" timestamp="1589435588622" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Creating instance of bean 'Person']]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.support.DefaultListableBeanFactory" timestamp="1589435588632" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Eagerly caching bean 'Person' to allow for resolving potential circular references]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.support.DefaultListableBeanFactory" timestamp="1589435588643" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Finished creating instance of bean 'Person']]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.context.support.ClassPathXmlApplicationContext" timestamp="1589435588643" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@527740a2]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.support.DefaultListableBeanFactory" timestamp="1589435588643" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Returning cached instance of singleton bean 'lifecycleProcessor']]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.core.env.PropertySourcesPropertyResolver" timestamp="1589435588643" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.core.env.PropertySourcesPropertyResolver" timestamp="1589435588643" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.core.env.PropertySourcesPropertyResolver" timestamp="1589435588643" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.support.DefaultListableBeanFactory" timestamp="1589435588643" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Returning cached instance of singleton bean 'Person']]></log4j:message>
+</log4j:event>
+
